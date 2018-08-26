@@ -9,7 +9,7 @@
 
     <groupId>org.antframework</groupId>
     <artifactId>ant-parent</artifactId>
-    <version>1.1.0.RELEASE</version>
+    <version>1.2.0.RELEASE</version>
     <packaging>pom</packaging>
 
     <name>ant-parent</name>
@@ -27,7 +27,7 @@
             <dependency>
                 <groupId>org.antframework</groupId>
                 <artifactId>ant-dependencies</artifactId>
-                <version>1.1.0.RELEASE</version>
+                <version>1.2.0.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
