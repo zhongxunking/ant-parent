@@ -16,24 +16,6 @@
     <url>http://antframework.org</url>
     <description>antframework所有项目的父pom</description>
 
-    <properties>
-        <!--设置jdk版本-->
-        <java.version>1.8</java.version>
-    </properties>
-
-    <!--第三方依赖管理-->
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.antframework</groupId>
-                <artifactId>ant-dependencies</artifactId>
-                <version>1.2.4</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
